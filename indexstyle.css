@@ -120,7 +120,7 @@
 }
 .work img{
     width: 100% !important;
-    transition: .5s;
+    transition: .3s;
 }
 .latestwork{
     background-color: rgb(241, 241, 241);
@@ -129,7 +129,7 @@
     flex-direction: column;
 }
 .latestwork:hover img{
-    scale: 1.15;
+    scale: 1.05;
 }
 .work p{
     margin-left: 20px;
