@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+}
+.main{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-family: bebas-neue-pro, sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 2em;
+    margin: 0;
+}
+h2{
+    font-family: bebas-neue-pro, sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+h3{
+    color: rgb(54, 54, 54);
+    font-family: bebas-neue-pro, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: black;
+    font-size: 1.2em;
+    margin: 0;
+}
+p{
+    color: rgb(48, 48, 48);
+    font-family: bebas-neue-pro, sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 1.3em;
+    line-height: 1.2em;
+}
+a{
+    text-decoration: none;
+    font-family: bebas-neue-pro, sans-serif;
+    font-weight: 500;
+    color: black;
+}
+.top{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.top a{
+    font-size: 2.8em;
+}
+.top a:hover{
+    color: rgb(107, 107, 107);
+}
+.bottom{
+    padding-bottom: 100px;
+    padding-left: 40px;
+    padding-top: 50px;
+    background-color: rgb(241, 241, 241);
+}
+.bottom img{
+    height: 30px;
+    margin-right: 12px;
+}
+.bottom a{
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+    font-family: bebas-neue-pro, sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 1.2em;
+}
+.bottom p{
+    margin: 0;
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+.socials{
+    flex-direction: row;
+    margin-bottom: 35px;
+}
+.imprint p:first-of-type{
+    margin-bottom: -20px;
+}
+.imprint{
+    margin-bottom: 400px;
+    margin-left: 20px;
+}

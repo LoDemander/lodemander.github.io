@@ -1,0 +1,104 @@
+@media only screen and (min-width: 780px){
+    .work{
+        width: 300px;
+        margin: 0;
+        margin-right: 40px;
+    }
+    .work p{
+        font-size: 1.5em;
+        line-height: 30px;
+    }
+    .button{
+        font-size: 1.5em;
+        padding: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        border-width: 2.5px;
+        margin-top: 30px;
+    }
+    .reel{
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 70px;
+        padding-left: 100px;
+        padding-right: 100px;
+        min-width: none;
+    }
+    .video{
+        display: block;
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 0;
+        height: 0;
+        overflow: hidden;
+    }
+    .reel iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .reel img{
+        display: none;
+    }
+    .reel .button{
+        display: none;
+    }
+    .photographyport{
+        background-color: white;
+        width: 300px;
+        padding: 0;
+        margin-left: 40px;
+    }
+    .about{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    .infoandimg{
+        display: flex;
+    }
+    .portrait{
+        max-width: 400px;
+    }
+    .about p{
+        margin: 0;
+        margin-top: 10px;
+    }
+    .about p:first-of-type{
+        margin: 0;
+        margin-top: 40px;
+    }
+    .zitat{
+        margin-top: 20px;
+    }
+    .zitat h3{
+        margin-top: 15px;
+    }
+    .bottom{
+        padding-left: 50px;
+        padding-bottom: 30px;
+    }
+    .bottom img{
+        height: 30px;
+        margin-right: 10px;
+    }
+    .workandphoto{
+        display: flex;
+        justify-content: center;
+    }
+    .info{
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+    .about img{
+        width: 200px;
+        margin-right: 20px;
+        margin-top: 0;
+    }
+    .about p:first-of-type{
+        margin: 0;
+    }
+}

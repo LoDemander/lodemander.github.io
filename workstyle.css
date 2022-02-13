@@ -1,0 +1,40 @@
+.works{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.project{
+    width: 100%;
+    margin: 20px;
+}
+.works img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .5s;
+}
+.works h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.thumbnail{
+    overflow: hidden;
+    height: 180px;
+}
+.project:hover img{
+    scale: 1.15;
+}
+
+@media only screen and (min-width: 600px){
+    .project{
+        max-width: 45%;
+        margin: 10px;
+    }
+}
+@media only screen and (min-width: 985px){
+    .project{
+        max-width: 31.3%;
+        margin: 10px;
+    }
+}
