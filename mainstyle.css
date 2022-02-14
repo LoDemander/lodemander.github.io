@@ -6,7 +6,11 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-
+.bottomwidth{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
 h1{
     font-family: bebas-neue-pro, sans-serif;
     font-weight: 400;
@@ -57,7 +61,7 @@ a{
     color: rgb(107, 107, 107);
 }
 .bottom{
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     padding-left: 40px;
     padding-top: 50px;
     background-color: rgb(241, 241, 241);
@@ -79,9 +83,15 @@ a{
     margin-top: 5px;
     font-size: 1.2em;
 }
+.rechtliches a:hover{
+    color: rgb(107, 107, 107);
+}
 .socials{
     flex-direction: row;
     margin-bottom: 35px;
+}
+.socials img:hover{
+    opacity: 50%;
 }
 .imprint p:first-of-type{
     margin-bottom: -20px;

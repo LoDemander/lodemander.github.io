@@ -8,15 +8,6 @@
         font-size: 1.5em;
         line-height: 30px;
     }
-    .button{
-        font-size: 1.5em;
-        padding: 40px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        text-align: center;
-        border-width: 2.5px;
-        margin-top: 30px;
-    }
     .reel{
         justify-content: center;
         flex-direction: column;
@@ -77,11 +68,16 @@
         margin-top: 15px;
     }
     .bottom{
+        text-align: center;
+        border-width: 2.5px;
+        margin-top: 30px;
+        padding-top: 40px;
+        padding-bottom: 30px;
+        padding-right: 40px;
+    }
+    .bottomwidth{
         display: flex;
         justify-content: space-between;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-bottom: 30px;
     }
     .rechtliches{
         display: flex;
@@ -95,7 +91,7 @@
         margin-bottom: 0;
     }
     .bottom img{
-        height: 30px;
+        height: 25px;
         margin-right: 10px;
     }
     .workandphoto{
