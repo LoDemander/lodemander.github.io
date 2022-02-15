@@ -111,4 +111,7 @@
     .about p:first-of-type{
         margin: 0;
     }
+    .imprint{
+        margin-bottom: 500px;
+    }
 }
