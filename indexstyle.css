@@ -125,7 +125,7 @@
     flex-direction: column;
 }
 .latestwork:hover img{
-    scale: 1.05;
+    transform: scale(1.05);
 }
 .work p{
     margin-left: 20px;
