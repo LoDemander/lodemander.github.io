@@ -1,8 +1,17 @@
+@media only screen and (min-width: 500px){
+    .main{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+}
 @media only screen and (min-width: 780px){
+    .main{
+        margin-left: auto;
+        margin-right: auto;
+    }
     .work{
-        width: 300px;
+        width: 320px;
         margin: 0;
-        margin-right: 40px;
     }
     .work p{
         font-size: 1.5em;
@@ -12,8 +21,9 @@
         justify-content: center;
         flex-direction: column;
         margin-top: 70px;
-        padding-left: 100px;
-        padding-right: 100px;
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
         min-width: none;
     }
     .video{
@@ -39,13 +49,13 @@
     }
     .photographyport{
         background-color: white;
-        width: 300px;
+        width: 320px;
         padding: 0;
-        margin-left: 40px;
     }
     .about{
-        margin-left: 150px;
-        margin-right: 150px;
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .infoandimg{
         display: flex;
@@ -96,7 +106,10 @@
     }
     .workandphoto{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        width: 700px;
     }
     .info{
         display: flex;
@@ -113,5 +126,11 @@
     }
     .imprint{
         margin-bottom: 500px;
+    }
+    .latestwork div{
+        height: 185px;
+    }
+    .contact{
+        margin-bottom: 50px;
     }
 }
