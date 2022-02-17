@@ -21,7 +21,9 @@
         justify-content: center;
         flex-direction: column;
         margin-top: 70px;
-        width: 700px;
+        max-width: 800px;
+        padding-left: 40px;
+        padding-right: 40px;
         margin-left: auto;
         margin-right: auto;
         min-width: none;
@@ -53,7 +55,9 @@
         padding: 0;
     }
     .about{
-        width: 700px;
+        max-width: 800px;
+        padding-left: 40px;
+        padding-right: 40px;
         margin-left: auto;
         margin-right: auto;
     }
