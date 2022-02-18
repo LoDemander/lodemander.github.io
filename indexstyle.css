@@ -113,7 +113,6 @@
 .latestwork div{
     height: 180px;
     position: relative;
-    top: -15%;
     overflow: hidden;
     object-position: center;
 }
@@ -121,7 +120,7 @@
     width: 100% !important;
     transition: .3s;
     position: relative;
-    top: -10%;
+    top: -30%;
 }
 .latestwork{
     background-color: rgb(241, 241, 241);
