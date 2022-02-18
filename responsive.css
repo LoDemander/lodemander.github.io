@@ -137,4 +137,7 @@
     .contact{
         margin-bottom: 50px;
     }
+    .work img{
+        top: -15%;
+    }
 }
