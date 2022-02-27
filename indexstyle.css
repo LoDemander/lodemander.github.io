@@ -109,6 +109,14 @@
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 20px;
+    transition-duration: .3s;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+}
+.photographyport .button{
+    margin-top: 15px;
 }
 .latestwork div{
     height: 180px;
