@@ -49,6 +49,10 @@
     .reel .button{
         display: none;
     }
+    .button:hover{
+        background-color: black;
+        color: white;
+    }
     .photographyport{
         background-color: white;
         width: 320px;
