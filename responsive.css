@@ -144,4 +144,29 @@
     .work img{
         top: -15%;
     }
+    .works .project{
+        position: relative;
+        text-align: center;
+        margin: 5px;
+    }
+    .works .project h2{
+        position: absolute;
+        top: 20px;
+        left: 25px;
+        opacity: 0;
+        color: white;
+        margin-right: 30px;
+        text-align: left;
+        font-size: 2.3em;
+        transition: .3s;
+        text-shadow: 0 0 25px black;
+      }
+    .works .project:hover img{
+        filter: brightness(60%) blur(1px) contrast(150%);
+        
+    }
+    .works .project:hover h2{
+        top: 12px;
+        opacity: 100%;
+    }
 }
