@@ -56,4 +56,10 @@
     .title{
         margin-left: 15px;
     }
+    #bigpic{
+        width: 97%;
+    }
+    #semibigpic{
+        width: 47.5%;
+    }
 }
