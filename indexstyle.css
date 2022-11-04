@@ -18,6 +18,7 @@
     width: 100% !important;
     object-fit: cover;
     object-position: center;
+    border-radius: 10px;
 }
 .video{
     display: none;
@@ -41,6 +42,7 @@
     width: 100%;
     object-fit: cover;
     object-position: center;
+    border-radius: 10px;
 }
 .zitat{
     margin-top: 100px;
@@ -53,8 +55,14 @@
     margin: 0;
     font-size: 1.5em;
 }
+.about p{
+    margin: 10px;
+}
 .about h3{
     margin-top: 15px;
+}
+.about a{
+    text-decoration: underline;
 }
 .photographyport{
     background-color: rgb(241, 241, 241);
@@ -83,6 +91,14 @@
     width: 100%;
     object-fit: cover;
     margin-top: 10px;
+    border-radius: 10px;
+    transition: .3s;
+}
+.photographyport:hover img{
+    transform: scale(0.98);
+}
+.photographyport img:hover {
+    transform: scale(1.05);
 }
 .photographyport h1{
     margin-bottom: 5px;
@@ -118,10 +134,12 @@
     height: 180px;
     position: relative;
     overflow: hidden;
+    transition: .3s;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .work img{
     width: 100% !important;
-    transition: .3s;
     position: relative;
     top: -30%;
 }
@@ -130,9 +148,11 @@
     margin-top: 20px;
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
 }
-.latestwork:hover img{
+.latestwork:hover div{
     transform: scale(1.05);
+    border-radius: 10px;
 }
 .work p{
     margin-left: 20px;

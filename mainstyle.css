@@ -89,9 +89,11 @@ a{
 .socials{
     flex-direction: row;
     margin-bottom: 35px;
+    transition: 0.5s;
 }
 .socials img:hover{
-    opacity: 50%;
+    opacity: 80%;
+    transform: scale(1.08);
 }
 .imprint p:first-of-type{
     margin-bottom: -20px;
@@ -100,4 +102,10 @@ a{
     margin-bottom: 300px;
     margin-left: 40px;
     margin-right: 40px;
+}
+.video{
+    border-radius: 0.7em;
+}
+#player{
+    border-radius: 0.7em;
 }
