@@ -41,6 +41,7 @@
     height: 300px;
     width: 100%;
     object-fit: cover;
+    
     object-position: center;
     border-radius: 10px;
 }
@@ -94,10 +95,10 @@
     border-radius: 10px;
     transition: .3s;
 }
-.photographyport:hover img{
+.miniphotos:hover img{
     transform: scale(0.98);
 }
-.photographyport img:hover {
+.miniphotos img:hover {
     transform: scale(1.05);
 }
 .photographyport h1{
