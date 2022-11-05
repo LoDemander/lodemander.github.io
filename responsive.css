@@ -165,8 +165,11 @@
         text-shadow: 0 0 25px black;
       }
     .works .project:hover img{
-        filter: brightness(60%) blur(1px) contrast(150%);
-        
+        opacity: 90%;
+        filter: brightness(30%) blur(1px) contrast(150%);
+    }
+    .thumbnail{
+        background-color: rgb(83, 163, 255);
     }
     .works .project:hover h2{
         top: 12px;
