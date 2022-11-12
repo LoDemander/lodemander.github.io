@@ -109,3 +109,6 @@ a{
 #player{
     border-radius: 0.7em;
 }
+.mastodon{
+    display: none;
+}
