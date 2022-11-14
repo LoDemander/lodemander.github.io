@@ -52,6 +52,9 @@
     .reel .button{
         display: none;
     }
+    .photographyport .button{
+        background-color: rgb(241, 241, 241);
+    }
     .button:hover{
         background-color: black;
         color: white;
