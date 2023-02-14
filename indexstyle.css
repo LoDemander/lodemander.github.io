@@ -1,6 +1,5 @@
 .reel h1{
     margin-bottom: 20px;
-    display: none;
 }
 .reel{
     margin-left: 20px;
@@ -8,7 +7,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 100px;
+    margin-top: 70px;
 }
 .reel p{
     margin: 0;
@@ -75,7 +74,6 @@
     flex-direction: column;
     padding-bottom: 50px;
     padding-top: 40px;
-    margin-bottom: 60px;
 }
 .miniphotos{
     display: flex;
@@ -103,7 +101,7 @@
 .miniphotos img:hover {
     transform: scale(1.05);
 }
-.photographyport h1{
+.workandphoto h1{
     margin-bottom: 5px;
     margin-left: 5px;
 }
@@ -112,7 +110,7 @@
     margin-right: 20px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 .button{
     background-color: rgb(241, 241, 241);
@@ -127,7 +125,7 @@
     text-align: center;
     margin-left: 40px;
     margin-right: 40px;
-    margin-top: 20px;
+    margin-top: 15px;
     transition-duration: .3s;
 }
 .photographyport .button{
@@ -137,21 +135,23 @@
     margin-top: 15px;
 }
 .latestwork div{
-    height: 180px;
-    position: relative;
+    height: 190px;
+    position: block;
     overflow: hidden;
     transition: .3s;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .work img{
     width: 100% !important;
-    position: relative;
-    top: -30%;
+    scale: 110%;
 }
 .latestwork{
     background-color: rgb(241, 241, 241);
-    margin-top: 20px;
+    margin: 5px;
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
