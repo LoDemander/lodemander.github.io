@@ -110,7 +110,7 @@
     margin-right: 20px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 }
 .button{
     background-color: rgb(241, 241, 241);
@@ -125,7 +125,6 @@
     text-align: center;
     margin-left: 40px;
     margin-right: 40px;
-    margin-top: 15px;
     transition-duration: .3s;
 }
 .photographyport .button{
@@ -135,20 +134,19 @@
     margin-top: 15px;
 }
 .latestwork div{
-    height: 190px;
+    height: 180px;
     position: block;
     overflow: hidden;
     transition: .3s;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
 }
 .work img{
     width: 100% !important;
+    scale: 1.01;
 }
 .latestwork{
-    background-color: rgb(241, 241, 241);
     margin: 5px;
     margin-top: 15px;
     display: flex;
@@ -160,8 +158,9 @@
     border-radius: 10px;
 }
 .work p{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 .contact{
     margin-top: 40px;

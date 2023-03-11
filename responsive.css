@@ -13,7 +13,7 @@
         margin-right: auto;
     }
     .work{
-        width: 380px;
+        width: 350px;
         margin: 0;
     }
     .work p{
@@ -61,7 +61,7 @@
     }
     .photographyport{
         background-color: white;
-        width: 380px;
+        width: 350px;
         padding: 0;
     }
     .about{
@@ -125,7 +125,9 @@
         margin-left: auto;
         margin-right: auto;
         margin-top: 100px;
-        width: 810px;
+        width: 740px;
+        padding-left: 35px;
+        padding-right: 35px;
     }
     .info{
         display: flex;
@@ -133,7 +135,7 @@
         margin-bottom: 60px;
     }
     .about img{
-        width: 200px;
+        width: 100%;
         margin-right: 20px;
         margin-top: 0;
     }
@@ -149,26 +151,9 @@
     .works .project{
         position: relative;
         text-align: center;
-        margin: 5px;
+        margin: 0;
     }
     .works .project h2{
-        position: absolute;
-        top: 20px;
-        left: 25px;
-        opacity: 0;
-        color: white;
-        margin-right: 30px;
         text-align: left;
-        font-size: 2.3em;
-        transition: .3s;
-        text-shadow: 0 0 25px black;
       }
-    .works .project:hover img{
-        opacity: 90%;
-        filter: brightness(30%) blur(1px) contrast(150%);
-    }
-    .works .project:hover h2{
-        top: 12px;
-        opacity: 100%;
-    }
 }
