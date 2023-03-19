@@ -104,7 +104,6 @@
 }
 .workandphoto h1{
     margin-bottom: 5px;
-    margin-left: 5px;
 }
 .work{
     margin-left: 20px;
@@ -145,7 +144,6 @@
     margin-right: auto;
 }
 .latestwork{
-    margin: 5px;
     margin-top: 15px;
     display: flex;
     flex-direction: column;

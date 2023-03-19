@@ -1,26 +1,31 @@
-@media only screen and (min-width: 500px){
-    .main{
+@media only screen and (min-width: 500px) {
+    .main {
         margin-left: 60px;
         margin-right: 60px;
     }
-    .reel h1{
+
+    .reel h1 {
         display: block;
     }
 }
-@media only screen and (min-width: 780px){
-    .main{
+
+@media only screen and (min-width: 780px) {
+    .main {
         margin-left: auto;
         margin-right: auto;
     }
-    .work{
+
+    .work {
         width: 350px;
         margin: 0;
     }
-    .work p{
+
+    .work p {
         font-size: 1.5em;
         line-height: 30px;
     }
-    .reel{
+
+    .reel {
         justify-content: center;
         flex-direction: column;
         margin-top: 100px;
@@ -31,7 +36,8 @@
         margin-right: auto;
         min-width: none;
     }
-    .video{
+
+    .video {
         display: block;
         position: relative;
         padding-bottom: 56.25%;
@@ -39,32 +45,39 @@
         height: 0;
         overflow: hidden;
     }
-    .reel iframe{
+
+    .reel iframe {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
     }
-    .reel img{
+
+    .reel img {
         display: none;
     }
-    .reel .button{
+
+    .reel .button {
         display: none;
     }
-    .photographyport .button{
+
+    .photographyport .button {
         background-color: rgb(241, 241, 241);
     }
-    .button:hover{
+
+    .button:hover {
         background-color: black;
         color: white;
     }
-    .photographyport{
+
+    .photographyport {
         background-color: white;
         width: 350px;
         padding: 0;
     }
-    .about{
+
+    .about {
         max-width: 800px;
         padding-left: 40px;
         padding-right: 40px;
@@ -72,27 +85,34 @@
         margin-right: auto;
         margin-top: 100px;
     }
-    .infoandimg{
+
+    .infoandimg {
         display: flex;
     }
-    .portrait{
+
+    .portrait {
         max-width: 400px;
     }
-    .about p{
+
+    .about p {
         margin: 0;
         margin-top: 10px;
     }
-    .about p:first-of-type{
+
+    .about p:first-of-type {
         margin: 0;
         margin-top: 40px;
     }
-    .zitat{
+
+    .zitat {
         margin-top: 20px;
     }
-    .zitat h3{
+
+    .zitat h3 {
         margin-top: 15px;
     }
-    .bottom{
+
+    .bottom {
         text-align: center;
         border-width: 2.5px;
         margin-top: 30px;
@@ -100,26 +120,32 @@
         padding-bottom: 30px;
         padding-right: 40px;
     }
-    .bottomwidth{
+
+    .bottomwidth {
         display: flex;
         justify-content: space-between;
     }
-    .rechtliches{
+
+    .rechtliches {
         display: flex;
         flex-direction: row;
     }
-    .rechtliches p{
+
+    .rechtliches p {
         margin: 0;
         margin-left: 40px;
     }
-    .socials{
+
+    .socials {
         margin-bottom: 0;
     }
-    .bottom img{
+
+    .bottom img {
         height: 25px;
         margin-right: 10px;
     }
-    .workandphoto{
+
+    .workandphoto {
         display: flex;
         justify-content: space-between;
         margin-left: auto;
@@ -129,31 +155,45 @@
         padding-left: 35px;
         padding-right: 35px;
     }
-    .info{
+
+    .info {
         display: flex;
         margin-top: 20px;
         margin-bottom: 60px;
     }
-    .about img{
+
+    .about img {
         width: 100%;
         margin-right: 20px;
         margin-top: 0;
     }
-    .about p:first-of-type{
+
+    .about p:first-of-type {
         margin: 0;
     }
-    .imprint{
+
+    .imprint {
         margin-bottom: 500px;
     }
-    .contact{
+
+    .contact {
         margin-bottom: 50px;
     }
-    .works .project{
+
+    .works .project {
         position: relative;
         text-align: center;
         margin: 0;
     }
-    .works .project h2{
+
+    .works .project h2 {
         text-align: left;
-      }
+    }
+
+    .latestwork {
+        margin: 5px;
+    }
+    .workandphoto h1{
+        margin-left: 5px;
+    }
 }
