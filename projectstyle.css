@@ -43,3 +43,13 @@ h2{
     margin-top: 40px;
     margin-bottom: 20px;
 }
+.laurels{
+    display: flex;
+    flex-direction: row;
+}
+.laurels img{
+    margin: 20px;
+    margin-left: 0;
+    width: auto;
+    height: 80px;
+}
