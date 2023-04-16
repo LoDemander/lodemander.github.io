@@ -34,7 +34,7 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 70px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .about img{
     margin-top: 20px;
@@ -56,10 +56,7 @@
     margin: 0;
     font-size: 1.5em;
 }
-.info p{
-    margin-left: 10px;
-    margin-right: 10px;
-}
+
 .about h3{
     margin-top: 15px;
 }
@@ -67,20 +64,10 @@
     text-decoration: underline;
 }
 .photographyport{
-    background-color: rgb(241, 241, 241);
-    padding-left: 15px;
-    padding-right: 15px;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 50px;
-    padding-top: 40px;
-    border-radius: 10px;
+    position: relative;
+    margin-right: 15px;
+    margin-left: 15px;
 }
-.miniphotos{
-    display: flex;
-    flex-direction: row;
-}
-
 .row{
     display: flex;
     flex-direction: column;
@@ -91,46 +78,42 @@
 .photographyport img{
     height: auto;
     width: 100%;
-    object-fit: cover;
-    margin-top: 10px;
-    border-radius: 10px;
     transition: .3s;
 }
-.miniphotos:hover img{
-    transform: scale(0.98);
+.photographyport h1{
+    position: absolute;
+    font-weight: 600;
+    top: 20px;
+    left: 20px;
+    transition: .3s;
 }
-.miniphotos img:hover {
-    transform: scale(1.05);
+.photographyport:hover h1{
+    font-style: italic;
 }
-.workandphoto h1{
-    margin-bottom: 5px;
+.photographyport:hover img{
+    filter: grayscale(100%);
 }
 .work{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 .button{
-    background-color: rgb(241, 241, 241);
+    text-decoration: underline;
+    font-style: italic;
     color: black;
-    border-radius: 10px;
-    padding: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-decoration: none;
-    font-size: 1.5em;
-    top: 35%;
-    text-align: center;
-    margin-top: 30px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-top: 10px;
+    font-size: 2em;
+    font-weight: 600;
     transition-duration: .3s;
+    margin-right: auto;
 }
-.photographyport .button{
-    background-color: white;
+.button:hover{
+    margin-left: 10px;
 }
+
 .photographyport .button{
     margin-top: 15px;
 }
@@ -138,19 +121,13 @@
     object-fit: cover;
     width: 100%;
     height: 191.25px;
-    border-radius: 10px;
     transition: .3s;
     margin-left: auto;
     margin-right: auto;
 }
 .latestwork{
-    margin-top: 15px;
     display: flex;
     flex-direction: column;
-    border-radius: 10px;
-}
-.latestwork:hover img{
-    transform: scale(1.05);
     border-radius: 10px;
 }
 .work p{
@@ -166,4 +143,18 @@
 .contact p{
     font-size: 1.5em;
 }
-
+.latestworkimg{
+    position: relative;
+}
+.latestworkimg p{
+    opacity: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 35px;
+    right: 50px;
+    font-family: bebas-neue-pro, sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 2em !important;
+    transition: .3s;
+}

@@ -7,6 +7,29 @@
     .reel h1 {
         display: block;
     }
+    .top{
+        margin-top: 50px;
+        justify-content: space-between;
+    }
+    .top .menu{
+        display: flex;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .top .menu a{
+        margin-right: 15px;
+        font-size: 1.5em;
+        text-decoration: underline;
+    }
+    .work{
+        margin-bottom: 100px;
+    }
+    #poster{
+        display: none;
+    }
+    #cover{
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 780px) {
@@ -15,16 +38,13 @@
         margin-right: auto;
     }
 
-    .work {
-        width: 350px;
-        margin: 0;
-    }
-
     .work p {
         font-size: 1.5em;
         line-height: 30px;
     }
-
+    .work img{
+        height: auto;
+    }
     .reel {
         justify-content: center;
         flex-direction: column;
@@ -61,22 +81,13 @@
     .reel .button {
         display: none;
     }
-
-    .photographyport .button {
-        background-color: rgb(241, 241, 241);
-    }
-
-    .button:hover {
-        background-color: black;
-        color: white;
-    }
-
     .photographyport {
-        background-color: white;
-        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 750px;
         padding: 0;
     }
-
+ 
     .about {
         max-width: 800px;
         padding-left: 40px;
@@ -144,18 +155,6 @@
         height: 25px;
         margin-right: 10px;
     }
-
-    .workandphoto {
-        display: flex;
-        justify-content: space-between;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 100px;
-        max-width: 800px;
-        padding-left: 35px;
-        padding-right: 35px;
-    }
-
     .info {
         display: flex;
         margin-top: 20px;
@@ -189,12 +188,11 @@
     .works .project h2 {
         text-align: left;
     }
-
-    .latestwork {
-        margin: 5px;
-        margin-top: 15px;
+    .latestwork:hover img{
+        filter: grayscale(100%) brightness(.4);
     }
-    .workandphoto h1{
-        margin-left: 5px;
+    .latestworkimg:hover p{
+        opacity: 1;
+        right: 35px;
     }
 }

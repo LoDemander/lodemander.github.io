@@ -1,5 +1,15 @@
 body{
     margin: 0;
+    background-color: rgb(247, 245, 242);
+}
+p{
+    color: white;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
 }
 .main{
     max-width: 1000px;
@@ -11,9 +21,10 @@ body{
     margin-right: auto;
     max-width: 1000px;
 }
+
 h1{
     font-family: bebas-neue-pro, sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     color: black;
     font-size: 2em;
     margin: 0;
@@ -50,23 +61,32 @@ a{
     color: black;
 }
 .top{
-    margin-top: 50px;
-    margin-bottom: 60px;
-    text-align: center;
+    display: flex;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    text-align: left;
 }
 .top a{
-    font-size: 2.8em;
+    font-size: 2.2em;
     text-align: start;
-    
+    font-weight: 600;
 }
 .top a:hover{
     color: rgb(107, 107, 107);
+}
+.top .menu a{
+    font-size: 2.2em;
+    text-align: start;
+    font-weight: 600;
+}
+.top .menu{
+    display: none;
 }
 .bottom{
     padding-bottom: 50px;
     padding-left: 40px;
     padding-top: 50px;
-    background-color: rgb(241, 241, 241);
 }
 .bottom img{
     height: 30px;
@@ -94,8 +114,7 @@ a{
     transition: 0.5s;
 }
 .socials img:hover{
-    opacity: 80%;
-    transform: scale(1.08);
+    opacity: 60%;
 }
 .imprint p:first-of-type{
     margin-bottom: -20px;
@@ -105,9 +124,7 @@ a{
     margin-left: 40px;
     margin-right: 40px;
 }
-.video{
-    border-radius: 0.7em;
-}
+
 #player{
     border-radius: 0.7em;
 }
