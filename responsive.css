@@ -195,4 +195,9 @@
         opacity: 1;
         right: 35px;
     }
+    .latestworkimg h1{
+        top: 50%;
+        left: 30%;
+        font-size: 3.5em !important;
+    }
 }
