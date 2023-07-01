@@ -186,9 +186,6 @@
         margin: 0;
     }
 
-    .works .project h2 {
-        text-align: left;
-    }
     .latestwork:hover img{
         filter: grayscale(100%) brightness(.4);
     }
@@ -198,7 +195,7 @@
     }
     .latestworkimg h1{
         top: 50%;
-        left: 30%;
+        left: 350px;
         font-size: 3.5em !important;
     }
 }

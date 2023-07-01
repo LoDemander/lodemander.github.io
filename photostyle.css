@@ -47,7 +47,7 @@
 }
 @media only screen and (min-width: 900px){
     .photos img{
-        width: 31%;
+        width: 26.18%;
     }
     .photos{
         margin-left: 0;
@@ -57,10 +57,10 @@
         margin-left: 15px;
     }
     #bigpic{
-        width: 97%;
+        width: 81.45%;
     }
     #semibigpic{
-        width: 47.5%;
+        width: 40%;
     }
 }
 @media only screen and (min-width: 1200px){
