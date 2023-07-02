@@ -64,7 +64,6 @@
     text-decoration: underline;
 }
 .photographyport{
-    display: none;
     position: relative;
     margin-right: 15px;
     margin-left: 15px;
@@ -84,8 +83,9 @@
 .photographyport h1{
     position: absolute;
     font-weight: 600;
-    top: 20px;
-    left: 20px;
+    font-size: 2.3em;
+    top: 25px;
+    left: 25px;
     transition: .3s;
 }
 .photographyport:hover h1{
@@ -102,16 +102,24 @@
     margin-bottom: 60px;
 }
 .button{
-    text-decoration: underline;
-    color: black;
-    margin-top: 20px;
-    font-size: 1.7em;
+    background-color: rgb(13, 13, 13);
+    color: white;
+    padding-top: 17px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 30px;
+    font-family: "roc-grotesk", sans-serif;
     font-weight: 600;
+    font-style: normal;
+    font-size: 1.7em;
     margin-right: auto;
     margin-left: auto;
+    transition-duration: .3s;
 }
 .button:hover{
-    color: rgb(107, 107, 107);
+    background-color: rgb(22, 22, 22);
+    scale: 1.05;
 }
 
 .photographyport .button{
@@ -158,12 +166,23 @@
     font-size: 2em !important;
     transition: .3s;
 }
+.latestworktext{
+    position: absolute;
+    bottom: -15px;
+    left: 160px;
+    transform: translate(-50%, -50%);
+}
+.latestworkimg h2{
+    margin: 0;
+    font-family: "roc-grotesk", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: rgb(234, 234, 234);
+    font-size: 1.2em !important;
+    text-shadow: 0px 0px 15px #000000;
+}
 .latestworkimg h1{
     margin: 0;
-    position: absolute;
-    top: 65%;
-    left: 37%;
-    transform: translate(-50%, -50%);
     font-family: bebas-neue-pro, sans-serif;
     font-weight: 600;
     color: white;
