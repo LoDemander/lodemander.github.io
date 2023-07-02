@@ -33,6 +33,9 @@
     .button{
         font-size: 1.6em;
     }
+    .photographyport {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 780px) {
