@@ -103,16 +103,15 @@
 }
 .button{
     text-decoration: underline;
-    font-style: italic;
     color: black;
-    margin-top: 10px;
-    font-size: 2em;
+    margin-top: 20px;
+    font-size: 1.7em;
     font-weight: 600;
-    transition-duration: .3s;
     margin-right: auto;
+    margin-left: auto;
 }
 .button:hover{
-    rotate: -7deg;
+    color: rgb(107, 107, 107);
 }
 
 .photographyport .button{
