@@ -168,9 +168,8 @@
 }
 .latestworktext{
     position: absolute;
-    bottom: -15px;
-    left: 160px;
-    transform: translate(-50%, -50%);
+    bottom: 25px;
+    left: 25px;
 }
 .latestworkimg h2{
     margin: 0;

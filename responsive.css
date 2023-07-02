@@ -199,8 +199,11 @@
     .latestworkimg h2{
         font-size: 1.8em !important;
     }
+    .latestworkimg h1{
+        font-size: 3em !important;
+    }
     .latestworktext{
-        top: 50%;
-        left: 350px;
+        bottom: 200px;
+        left: 200px;
     }
 }
