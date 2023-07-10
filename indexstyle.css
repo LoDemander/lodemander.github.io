@@ -41,9 +41,7 @@
     height: 300px;
     width: 100%;
     object-fit: cover;
-    
-    object-position: center;
-    border-radius: 10px;
+    object-position: top;
 }
 .zitat{
     margin-top: 100px;
