@@ -36,12 +36,15 @@
     margin-top: 70px;
     margin-bottom: 100px;
 }
+.fat{
+    font-weight: 900;
+}
 .about img{
     margin-top: 20px;
     height: 300px;
     width: 100%;
     object-fit: cover;
-    object-position: top;
+    object-position: center;
 }
 .zitat{
     margin-top: 100px;

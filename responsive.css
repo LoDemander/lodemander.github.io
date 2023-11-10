@@ -10,17 +10,6 @@
         margin-top: 50px;
         justify-content: space-between;
     }
-    .top .menu{
-        display: flex;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-left: 30px;
-    }
-    .top .menu a{
-        margin-right: 15px;
-        font-size: 1.5em;
-        text-decoration: underline;
-    }
     .work{
         margin-bottom: 100px;
     }
@@ -43,7 +32,17 @@
         margin-left: auto;
         margin-right: auto;
     }
-
+    .top .menu{
+        display: flex;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 30px;
+    }
+    .top .menu a{
+        margin-right: 15px;
+        font-size: 1.5em;
+        text-decoration: underline;
+    }
     .work p {
         font-size: 1.5em;
         line-height: 30px;
@@ -169,15 +168,14 @@
     }
 
     .about img {
-        width: 100%;
+        width: 240px;
         margin-right: 20px;
         margin-top: 0;
     }
-
+    
     .about p:first-of-type {
         margin: 0;
     }
-
     .imprint {
         margin-bottom: 500px;
     }
@@ -205,6 +203,12 @@
     .latestworkimg h1{
         font-size: 3em !important;
     }
+    .latestworktext{
+        bottom: 50px;
+        left: 50px;
+    }
+}
+@media only screen and (min-width: 1500px) {
     .latestworktext{
         bottom: 200px;
         left: 200px;

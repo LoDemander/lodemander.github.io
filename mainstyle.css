@@ -124,6 +124,11 @@ a{
     margin-left: 40px;
     margin-right: 40px;
 }
+.imprint img{
+    margin-top: 20px;
+    height: 350px;
+    width: auto;
+}
 
 #player{
     border-radius: 0.7em;
