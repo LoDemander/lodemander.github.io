@@ -189,12 +189,6 @@
         margin-bottom: 50px;
     }
 
-    .works .project {
-        position: relative;
-        text-align: center;
-        margin: 0;
-    }
-
     .latestwork:hover img{
         filter: grayscale(100%) brightness(.4);
     }
